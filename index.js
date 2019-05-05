@@ -13,4 +13,3 @@ function destructivelyPrependKitten(array, ele)
   array.unshift(ele)
   return array
 }
-
