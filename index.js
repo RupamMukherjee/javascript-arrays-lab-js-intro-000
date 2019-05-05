@@ -13,3 +13,8 @@ function destructivelyPrependKitten(array, ele)
   array.unshift(ele)
   return array
 }
+
+function destructivelyRemoveLastKitten(array, ele) {
+  array.pop()
+  return array
+}
