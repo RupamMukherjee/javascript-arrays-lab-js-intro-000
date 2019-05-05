@@ -22,13 +22,13 @@ function destructivelyRemoveLastKitten() {
   kittens = kittens.slice(0, kittens.length-1)
   return kittens
 }
+kittens = array
 
 function destructivelyRemoveFirstKitten(){
-  var array = new Array()
-  array = kittens
-  array = array.slice(1)
-  return array
+  kittens = kittens.slice(1)
+  return kittens
 }
+kittens = array
 
 function appendKitten(name){
   return [...kittens, name]
