@@ -20,5 +20,5 @@ function destructivelyRemoveLastKitten(array) {
 }
 
 function destructivelyRemoveFirstKitten(array){
-  array
+  array = array.slice(1)
 }
