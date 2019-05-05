@@ -4,7 +4,7 @@ var kittens = ['Milo', 'Otis', 'Garfield'] //define your array here
 
 function destructivelyAppendKitten(array, ele)
 {
-  array.push(ele)
+  array = [...array, ele]
   return array
 }
 
@@ -14,7 +14,11 @@ function destructivelyPrependKitten(array, ele)
   return array
 }
 
-function destructivelyRemoveLastKitten(array, ele) {
+function destructivelyRemoveLastKitten(array) {
   array.pop()
   return array
+}
+
+function destructivelyRemoveFirstKitten(array){
+  array
 }
