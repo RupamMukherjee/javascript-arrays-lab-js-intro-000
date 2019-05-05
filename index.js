@@ -11,16 +11,19 @@ function destructivelyAppendKitten(ele)
 
 function destructivelyPrependKitten(ele)
 {
+  var array = new Array()
   array = [ele, ...array]
   return array
 }
 
 function destructivelyRemoveLastKitten() {
+  var array = new Array()
   array = array.slice(0, array.length-1)
   return array
 }
 
 function destructivelyRemoveFirstKitten(){
+  var array = new Array()
   array = array.slice(1)
   return array
 }
