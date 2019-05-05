@@ -19,10 +19,8 @@ function destructivelyPrependKitten(name)
 kittens = array
 
 function destructivelyRemoveLastKitten() {
-  var array = new Array()
-  array = kittens
-  array = array.slice(0, array.length-1)
-  return array
+  kittens = kittens.slice(0, kittens.length-1)
+  return kittens
 }
 
 function destructivelyRemoveFirstKitten(){
