@@ -10,11 +10,13 @@ function destructivelyAppendKitten(name)
   return kittens
 }
 kittens = array
+
 function destructivelyPrependKitten(name)
 {
-  kittens = [name, ...array]
+  kittens = [name, ...kittens]
   return kittens
 }
+kittens = array
 
 function destructivelyRemoveLastKitten() {
   var array = new Array()
