@@ -10,7 +10,7 @@ function destructivelyAppendKitten(array, ele)
 
 function destructivelyPrependKitten(array, ele)
 {
-  array.unshift(ele)
+  array = [ele, ...array]
   return array
 }
 
